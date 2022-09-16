@@ -43,7 +43,7 @@ public class SillyTest {
         assertEquals("firstsecond", sample2.name);
     }
 
-    @Test(timeout = 50)
+    @Test(timeout = 75)
     public void testTask2() {
         String[] output = getMainOutput();
 
